@@ -15,10 +15,11 @@ npm i llr
 ```js
 import ls from '../lib/ls'
 
+let testPath = '~'
 ls({
-  path: args[0], 
+  path: testPath, 
   callback: (path: string)=> {
-    console.log(`${args[0]}${path}`)
+    console.log(`${testPath}${path}`)
   }
 })
 ```
