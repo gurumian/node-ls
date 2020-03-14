@@ -5,11 +5,14 @@
 import ls from '../lib/ls'
 
 var args = process.argv.slice(2);
-console.log('args: ', args);
+var uri = '.'
+if(args.length) {
+  uri = args[0];
+}
 
 ls({
-  path: args[0], 
+  path: uri, 
   callback: (path: string)=> {
-    console.log(`${args[0]}${path}`)
+    console.log(`${uri}${path}`)
   }
 })
