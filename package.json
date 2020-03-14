@@ -1,0 +1,25 @@
+{
+  "name": "@gurumian/ls",
+  "version": "0.0.1",
+  "description": "recursive ls",
+  "main": "./dist/index.js",
+  "scripts": {
+    "start": "node ./dist/index.js",
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "chai": "^4.2.0",
+    "mocha": "^7.0.1",
+    "typescript": "^3.8.3"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gurumian/npm-ls.git"
+  },
+  "bin": {
+    "lsr": "./dist/bin/lsr"
+  }
+}
