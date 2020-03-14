@@ -20,6 +20,6 @@
     "url": "git+https://github.com/gurumian/npm-ls.git"
   },
   "bin": {
-    "lsr": "./dist/bin/lsr"
+    "lsr": "./dist/bin/lsr.ts"
   }
 }
