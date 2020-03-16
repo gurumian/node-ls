@@ -13,12 +13,12 @@ npm i llr
 ## Example
 
 ```js
-import ls from '../lib/ls'
+const {ls} = require('llr')
 
-let testPath = '~'
+let testPath = '.'
 ls({
   path: testPath, 
-  callback: (path: string)=> {
+  callback: (path)=> {
     console.log(`${testPath}${path}`)
   }
 })
