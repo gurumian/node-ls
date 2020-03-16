@@ -9,6 +9,16 @@ npm i -g typescript
 ```bash
 npm i llr
 ```
+globally,
+```bash
+npm i -g llr
+```
+
+## Run
+```bash
+llr
+```
+
 
 ## Example
 
